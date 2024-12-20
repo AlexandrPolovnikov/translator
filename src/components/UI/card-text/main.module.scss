@@ -1,0 +1,22 @@
+.wrapper {
+    .block {
+        gap: 20px;
+
+        .text {
+            justify-content: start;
+            gap: 20px;
+            flex-wrap: wrap;
+
+            &__pointer {
+                cursor: pointer;
+                padding: 2px 4px;
+                &:hover {
+                    outline: 1px solid blue;
+                    border-radius: 10px;
+                    text-align: center;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

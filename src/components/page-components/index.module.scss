@@ -1,0 +1,17 @@
+.wrapper {
+    background-color: #f2f2f7;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 20px;
+    min-height: 1000px;
+    padding: 48px 64px;
+    align-content: start;
+    max-width: 100%;
+
+    .button {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+    }
+}

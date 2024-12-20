@@ -1,0 +1,39 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.content {
+    width: calc(100% - 80px);
+    max-width: 1920px;
+    margin: auto auto;
+    display: grid;
+}
+.pointer {
+    cursor: pointer;
+    * {
+        cursor: pointer;
+    }
+}
+
+.column {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.row {
+    display: grid;
+    grid-auto-flow: row;
+}
+.column-f {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-f {
+    display: flex;
+    flex-direction: column;
+}

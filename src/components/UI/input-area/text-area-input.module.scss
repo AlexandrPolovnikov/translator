@@ -1,0 +1,41 @@
+.input__container {
+    align-content: start;
+    gap: 8px;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+}
+
+.label__element {
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+.area__input {
+    // resize: none;
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+
+    &:focus {
+        border: 1px solid black;
+        outline: none;
+    }
+}
+
+.disabled__component {
+    cursor: no-drop;
+    .label__element {
+        color: black;
+    }
+
+    .area__input {
+        cursor: no-drop;
+        background-color: white;
+        border-color: #e3e3e3;
+        color: black;
+    }
+}

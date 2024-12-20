@@ -1,0 +1,22 @@
+.starting_column {
+    border: 1px solid black;
+    justify-content: start;
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+    grid-template-rows: auto;
+    .column {
+        width: 100%;
+        padding: 5px 10px;
+        // width: 100%;
+    }
+
+    .row {
+        display: grid;
+    }
+    .border {
+        border-bottom: 1px solid black;
+        width: 100%;
+        display: grid;
+    }
+}

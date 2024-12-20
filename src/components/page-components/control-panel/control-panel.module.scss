@@ -1,0 +1,9 @@
+.wrapper {
+    background-color: #f2f2f7;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 64px;
+    min-height: 1000px;
+    padding: 48px 64px;
+    align-content: start;
+}
