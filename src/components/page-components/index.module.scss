@@ -3,15 +3,25 @@
     display: grid;
     grid-auto-flow: row;
     gap: 20px;
-    min-height: 1000px;
+    min-height: 100vh;
     padding: 48px 64px;
     align-content: start;
     max-width: 100%;
 
-    .button {
-        width: 100%;
-    }
-    .input {
-        width: 100%;
+    .storage__text {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 5px;
+        flex-wrap: wrap;
+        p {
+            padding: 5px;
+            cursor: pointer;
+
+            &:hover {
+                color: #007bff;
+                outline: 1px solid #007bff;
+                border-radius: 5px;
+            }
+        }
     }
 }
